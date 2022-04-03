@@ -8,7 +8,7 @@ use vipers::prelude::*;
 
 mod account_validators;
 
-declare_id!("QREGBnEj9Sa5uR91AV8u3FxThgP5ZCvdZUW2bHAkfNc");
+declare_id!("AiekfXbQ9VjDRvgkyACFoDJkvCsBsMB3c175SgQVNSzx");
 
 /// Registry to help frontends quickly locate all active quarries.
 #[program]

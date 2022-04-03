@@ -20,7 +20,7 @@ use vipers::prelude::*;
 
 pub use state::*;
 
-declare_id!("QMMD16kjauP5knBwxNUJRZ1Z5o3deBuFrqVjBVmmqto");
+declare_id!("HNY2wD2HG5EuyAKGWaMVafCasuNW4ih86Rp8deZdgRvn");
 
 #[deny(clippy::integer_arithmetic, clippy::float_arithmetic)]
 #[program]

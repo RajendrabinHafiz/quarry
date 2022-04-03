@@ -28,7 +28,7 @@ pub mod rewarder;
 
 use crate::quarry::StakeAction;
 
-declare_id!("QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB");
+declare_id!("7RHP64zbxqGDVU2AiR2fMeQVk7MFmTBTmk2N1NUBfXzm");
 
 /// Maximum number of tokens that can be rewarded by a [Rewarder] per year.
 pub const MAX_ANNUAL_REWARDS_RATE: u64 = u64::MAX >> 3;

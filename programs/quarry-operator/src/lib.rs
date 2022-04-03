@@ -9,7 +9,7 @@ use vipers::prelude::*;
 mod account_validators;
 mod macros;
 
-declare_id!("QoP6NfrQbaGnccXQrMLUkog2tQZ4C1RFgJcwDnT8Kmz");
+declare_id!("DVhw9gYCS7xzRhAHr25uHHaGtWhf1rtk46utZQNDgpZY");
 
 /// Quarry Operator program.
 #[program]

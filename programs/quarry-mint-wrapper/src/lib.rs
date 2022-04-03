@@ -12,7 +12,7 @@ use vipers::prelude::*;
 
 mod account_validators;
 
-declare_id!("QMWoBmAyJLAsA1Lh9ugMTw2gciTihncciphzdNzdZYV");
+declare_id!("BJpY2mWNexLzoygJtsTPo6WQxnEMvxvRA5RwAFq8oUXb");
 
 #[program]
 pub mod quarry_mint_wrapper {

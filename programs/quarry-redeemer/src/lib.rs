@@ -10,7 +10,7 @@ mod account_validators;
 mod macros;
 mod redeem_cpi;
 
-declare_id!("QRDxhMw1P2NEfiw5mYXG79bwfgHTdasY2xNP76XSea9");
+declare_id!("84pypEc5axkFQ6YtiQT1b1kjEZuCL7PkbAMsp21ibio");
 
 /// Quarry Redeemer program.
 #[program]

@@ -8,7 +8,7 @@ seeds = true
 test = "yarn mocha"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "./tests/test-key.json"
 
 [programs.mainnet]
@@ -20,12 +20,12 @@ quarry_redeemer = "QRDxhMw1P2NEfiw5mYXG79bwfgHTdasY2xNP76XSea9"
 quarry_registry = "QREGBnEj9Sa5uR91AV8u3FxThgP5ZCvdZUW2bHAkfNc"
 
 [programs.devnet]
-quarry_merge_mine = "QMMD16kjauP5knBwxNUJRZ1Z5o3deBuFrqVjBVmmqto"
-quarry_mine = "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
-quarry_mint_wrapper = "QMWoBmAyJLAsA1Lh9ugMTw2gciTihncciphzdNzdZYV"
-quarry_operator = "QoP6NfrQbaGnccXQrMLUkog2tQZ4C1RFgJcwDnT8Kmz"
-quarry_redeemer = "QRDxhMw1P2NEfiw5mYXG79bwfgHTdasY2xNP76XSea9"
-quarry_registry = "QREGBnEj9Sa5uR91AV8u3FxThgP5ZCvdZUW2bHAkfNc"
+quarry_merge_mine = "HNY2wD2HG5EuyAKGWaMVafCasuNW4ih86Rp8deZdgRvn"
+quarry_mine = "7RHP64zbxqGDVU2AiR2fMeQVk7MFmTBTmk2N1NUBfXzm"
+quarry_mint_wrapper = "BJpY2mWNexLzoygJtsTPo6WQxnEMvxvRA5RwAFq8oUXb"
+quarry_operator = "DVhw9gYCS7xzRhAHr25uHHaGtWhf1rtk46utZQNDgpZY"
+quarry_redeemer = "84pypEc5axkFQ6YtiQT1b1kjEZuCL7PkbAMsp21ibio"
+quarry_registry = "AiekfXbQ9VjDRvgkyACFoDJkvCsBsMB3c175SgQVNSzx"
 
 [programs.testnet]
 quarry_merge_mine = "QMMD16kjauP5knBwxNUJRZ1Z5o3deBuFrqVjBVmmqto"

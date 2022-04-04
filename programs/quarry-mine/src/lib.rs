@@ -289,6 +289,7 @@ pub mod quarry_mine {
             // noop
             return Ok(());
         }
+        msg!("Here success! 1");
 
         let quarry = &mut ctx.accounts.quarry;
         let clock = Clock::get()?;
@@ -299,6 +300,7 @@ pub mod quarry_mine {
             &mut ctx.accounts.miner,
             amount,
         )?;
+        msg!("Here success! 2");
 
         let cpi_accounts = Transfer {
             from: ctx.accounts.token_account.to_account_info(),
@@ -306,9 +308,12 @@ pub mod quarry_mine {
             authority: ctx.accounts.authority.to_account_info(),
         };
         let cpi_program = ctx.accounts.token_program.to_account_info();
+        msg!("Here success! 3");
         let cpi_context = CpiContext::new(cpi_program, cpi_accounts);
+        msg!("Here success! 4");
         // Transfer LP tokens to quarry vault
         token::transfer(cpi_context, amount)?;
+        msg!("Here success! 5");
 
         emit!(StakeEvent {
             timestamp: clock.unix_timestamp,

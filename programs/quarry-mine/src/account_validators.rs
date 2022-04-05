@@ -217,9 +217,9 @@ impl<'info> Validate<'info> for UserStake<'info> {
     fn validate(&self) -> Result<()> {
         msg!("Validating start");
         invariant!(!self.rewarder.is_paused, Paused);
-        // msg!("Validating passed 1");
-        // // authority
-        // invariant!(self.authority.is_signer, Unauthorized);
+        msg!("Validating passed 1");
+        // authority
+        invariant!(self.authority.is_signer, Unauthorized);
         // assert_keys_eq!(self.authority, self.miner.authority, "miner authority");
         // msg!("Validating passed 2");
         // // quarry

@@ -215,8 +215,8 @@ impl<'info> Validate<'info> for UserClaim<'info> {
 impl<'info> Validate<'info> for UserStake<'info> {
     /// Validates the UserStake.
     fn validate(&self) -> Result<()> {
-        // msg!("Validating start");
-        // invariant!(!self.rewarder.is_paused, Paused);
+        msg!("Validating start");
+        invariant!(!self.rewarder.is_paused, Paused);
         // msg!("Validating passed 1");
         // // authority
         // invariant!(self.authority.is_signer, Unauthorized);

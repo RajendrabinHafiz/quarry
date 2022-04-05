@@ -220,8 +220,8 @@ impl<'info> Validate<'info> for UserStake<'info> {
         msg!("Validating passed 1");
         // authority
         invariant!(self.authority.is_signer, Unauthorized);
-        // assert_keys_eq!(self.authority, self.miner.authority, "miner authority");
-        // msg!("Validating passed 2");
+        assert_keys_eq!(self.authority, self.miner.authority, "miner authority");
+        msg!("Validating passed 2");
         // // quarry
         // assert_keys_eq!(self.miner.quarry_key, self.quarry.key(), "quarry");
         // msg!("Validating passed 3");

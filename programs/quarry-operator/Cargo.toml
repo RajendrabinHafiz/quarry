@@ -21,6 +21,6 @@ default = []
 
 [dependencies]
 anchor-lang = "^0.22"
-anchor-spl = "^0.22"
+anchor-spl = "^0.25"
 quarry-mine = { path = "../quarry-mine", version = "3.0.0", features = ["cpi"] }
 vipers = "^2.0"

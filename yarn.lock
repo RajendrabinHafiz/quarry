@@ -197,7 +197,7 @@ __metadata:
     "@types/bn.js": ^5.1.0
     "@types/chai": ^4.3.0
     "@types/mocha": ^9.1.0
-    "@types/node": ^17.0.19
+    "@types/node": ^20.5.3
     "@types/prettier": ^2.4.4
     bn.js: ^5.2.0
     chai: =4.3.4
@@ -539,10 +539,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.19":
-  version: 17.0.19
-  resolution: "@types/node@npm:17.0.19"
-  checksum: 6bbd35bfc23dd50d1aefd4ae49c31f7fd632be209dba67c0322bb4fe8b555f4bb6e894018963146ad7758ae596857d5cbecc2d46ddf90a54f6a4424811cf4351
+"@types/node@npm:^20.5.3":
+  version: 20.5.3
+  resolution: "@types/node@npm:20.5.3"
+  checksum: fe67a0fd7402218bdf91523a2b1c2e41d619f7294b1a471e0a778b8bc7bb3fcf291aed12041bcbe9622d50a3d1295a9adea0e7e19bb9386a246bf66071404721
   languageName: node
   linkType: hard
 
